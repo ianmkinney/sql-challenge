@@ -18,9 +18,7 @@ WHERE DATE_PART('year',hire_date) = 1986
 ORDER BY emp_no;
 
 
---3. List the manager of each department with the following information: 
---department number, department name, the manager's employee number, 
---last name, first name, and start and end employment dates.
+--3. List the manager of each department with information
 
 SELECT dept_manager.dept_no, 
 departments.dept_name,
